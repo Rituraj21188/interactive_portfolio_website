@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RITURAJ GOGOI | UAV Survey &amp; Spatial Intelligence Specialist</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Oswald & JetBrains Mono & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "elevation-crimson": "#f43f5e",
+            "tertiary-container": "#f59e0b",
+            "primary-fixed-dim": "#7bd0ff",
+            "on-error": "#690005",
+            "surface-container-lowest": "#040e21",
+            "telemetry-card-bg": "rgba(11, 21, 40, 0.72)",
+            "surface-variant": "#2b3549",
+            "on-primary-fixed": "#001e2c",
+            "surface-dim": "#091326",
+            "tertiary-fixed-dim": "#ffb95f",
+            "surface-container-low": "#121b2f",
+            "surface-tint": "#7bd0ff",
+            "surface-container": "#161f33",
+            "primary-container": "#38bdf8",
+            "background": "#091326",
+            "primary-fixed": "#c4e7ff",
+            "surface": "#091326",
+            "telemetry-border": "rgba(56, 189, 248, 0.22)",
+            "on-secondary-container": "#00311f",
+            "laser-cyan": "#0ea5e9",
+            "surface-container-high": "#202a3e",
+            "inverse-surface": "#d9e2fd",
+            "on-secondary-fixed-variant": "#005236",
+            "on-secondary": "#003824",
+            "telemetry-surface": "#0b1528",
+            "on-tertiary-fixed": "#2a1700",
+            "secondary-fixed": "#6ffbbe",
+            "cadastral-purple": "#8b5cf6",
+            "on-error-container": "#ffdad6",
+            "inverse-primary": "#00668a",
+            "secondary": "#4edea3",
+            "telemetry-grid-line": "rgba(56, 189, 248, 0.08)",
+            "secondary-fixed-dim": "#4edea3",
+            "error": "#ffb4ab",
+            "surface-container-highest": "#2b3549",
+            "tertiary": "#ffc174",
+            "heritage-amber": "#f59e0b",
+            "telemetry-deep-bg": "#050b14",
+            "on-secondary-fixed": "#002113",
+            "on-primary-container": "#004965",
+            "spectral-green": "#10b981",
+            "on-surface-variant": "#bdc8d1",
+            "on-background": "#d9e2fd",
+            "outline": "#87929a",
+            "on-tertiary-container": "#613b00",
+            "on-surface": "#d9e2fd",
+            "inverse-on-surface": "#273045",
+            "outline-variant": "#3e484f",
+            "primary": "#8ed5ff",
+            "on-primary": "#00354a",
+            "secondary-container": "#00a572",
+            "mesh-violet": "#a855f7",
+            "surface-bright": "#30394e",
+            "error-container": "#93000a",
+            "on-tertiary": "#472a00",
+            "on-primary-fixed-variant": "#004c69",
+            "on-tertiary-fixed-variant": "#653e00",
+            "tertiary-fixed": "#ffddb8"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-xl": "2.5rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-lg": "1.5rem",
+            "gutter": "1.5rem",
+            "gutter-mobile": "1rem",
+            "margin-mobile": "1.25rem",
+            "margin": "3rem",
+            "space-md": "1rem"
+          },
+          "fontFamily": {
+            "display-hero": ["Oswald"],
+            "eyebrow-tag": ["JetBrains Mono"],
+            "headline-sm": ["Oswald"],
+            "body-md": ["Inter"],
+            "body-sm": ["Inter"],
+            "label-btn": ["Inter"],
+            "body-lg": ["Inter"],
+            "display-hero-mobile": ["Oswald"],
+            "headline-lg-mobile": ["Oswald"],
+            "headline-lg": ["Oswald"],
+            "telemetry-meta": ["JetBrains Mono"],
+            "headline-md": ["Oswald"]
+          },
+          "fontSize": {
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "eyebrow-tag": ["11px", { "lineHeight": "16px", "letterSpacing": "0.14em", "fontWeight": "600" }],
+            "headline-sm": ["19px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+            "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "label-btn": ["13px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "0.03em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "headline-lg": ["38px", { "lineHeight": "48px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+            "telemetry-meta": ["12px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "0.02em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      display: inline-block;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* Technical Grid Substrate */
+    .bg-spatial-grid {
+      background-image: 
+        linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    
+    .tactical-scanline {
+      background: linear-gradient(180deg, transparent 0%, rgba(14, 165, 233, 0.08) 50%, transparent 100%);
+      background-size: 100% 8px;
+    }
+    
+    @keyframes radar-pulse {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(2.2); opacity: 0; }
+    }
+    .animate-radar-ring {
+      animation: radar-pulse 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+  </style>
+</head>
+<body class="bg-telemetry-deep-bg text-on-surface font-body-md antialiased selection:bg-laser-cyan selection:text-surface-container-lowest bg-spatial-grid">
+<!-- ================= TOP NAV BAR (Shared Component JSON) ================= -->
+<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-3 w-full bg-telemetry-card-bg/90 backdrop-blur-md border-b border-telemetry-border shadow-[0_4px_24px_-2px_rgba(5,11,20,0.8)]">
+<!-- Brand Anchor -->
+<a class="font-headline-md text-headline-md tracking-wider uppercase text-on-surface flex items-center gap-3 group" href="#">
+<div class="relative flex items-center justify-center w-8 h-8 rounded border border-primary-container/40 bg-surface-container-lowest">
+<span class="material-symbols-outlined text-primary group-hover:rotate-45 transition-transform duration-300">radar</span>
+<span class="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-spectral-green animate-pulse"></span>
+</div>
+<span>RITURAJ GOGOI</span>
+</a>
+<!-- Navigation Links -->
+<nav class="hidden md:flex items-center gap-1 font-eyebrow-tag text-eyebrow-tag">
+<!-- Active Intent is WORK on top-level portfolio view -->
+<a class="text-primary border border-telemetry-border bg-surface-container-high/40 px-3 py-1.5 rounded transition-all duration-150 ease-out active:scale-95" href="#work">WORK</a>
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors duration-200 px-3 py-1.5" href="#about">ABOUT ME</a>
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors duration-200 px-3 py-1.5" href="#contact">CONTACT</a>
+</nav>
+<!-- Trailing Action Icons -->
+<div class="flex items-center gap-2">
+<button class="w-9 h-9 rounded flex items-center justify-center border border-telemetry-border bg-surface-container-low text-primary hover:text-laser-cyan hover:border-primary transition-colors duration-200" title="GNSS Satellite Constellation Sync">
+<span class="material-symbols-outlined">satellite_alt</span>
+</button>
+<button class="w-9 h-9 rounded flex items-center justify-center border border-telemetry-border bg-surface-container-low text-primary hover:text-laser-cyan hover:border-primary transition-colors duration-200" title="Active Radar Sweep">
+<span class="material-symbols-outlined">radar</span>
+</button>
+<a class="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3 py-1.5 rounded bg-primary-container text-on-primary-container font-label-btn text-label-btn font-semibold hover:bg-primary transition-colors duration-200" href="#contact">
+<span>MISSION INQUIRY</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+</header>
+<!-- ================= HERO SECTION & THREE.JS LIDAR HUD ================= -->
+<main class="pt-24 pb-16 px-4 md:px-12 max-w-[1440px] mx-auto">
+<div class="flex flex-col gap-6 mt-4 mb-16">
+<!-- Mission Eyebrow Tag -->
+<div class="flex flex-wrap items-center justify-between gap-4 border-b border-telemetry-border/40 pb-4">
+<div class="flex items-center gap-2.5">
+<span class="inline-flex items-center px-2.5 py-1 rounded border border-primary-container/40 bg-surface-container-lowest font-eyebrow-tag text-eyebrow-tag text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-spectral-green mr-2 animate-ping"></span>
+            SYS_OPERATIONAL // RTK_FIXED
+          </span>
+<span class="font-telemetry-meta text-telemetry-meta text-on-surface-variant hidden sm:inline">
+            BASE_ID: ASSAM-NE-094 • EPSG:32646 (WGS 84 / UTM ZONE 46N)
+          </span>
+</div>
+<div class="flex items-center gap-4 font-telemetry-meta text-telemetry-meta text-on-surface-variant">
+<span>LAT: 26°55'32" N</span>
+<span class="text-telemetry-border">|</span>
+<span>LON: 94°54'44" E</span>
+<span class="text-telemetry-border">|</span>
+<span class="text-spectral-green font-medium">PDOP: 1.1</span>
+</div>
+</div>
+<!-- Main Headline Stack -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+<div class="lg:col-span-8 flex flex-col gap-2">
+<div class="font-eyebrow-tag text-eyebrow-tag text-laser-cyan tracking-widest uppercase">
+            UAV Survey &amp; Spatial Intelligence Specialist
+          </div>
+<h1 class="font-display-hero text-display-hero text-on-surface uppercase tracking-tight">
+            RITURAJ GOGOI
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+            Pioneering autonomous aerial photogrammetry, centimeter-grade LiDAR topography, and enterprise GIS architectures. From high-altitude UNESCO World Heritage mapping to machine learning tree crown enumeration and compliance engines.
+          </p>
+</div>
+<!-- Quick Telemetry Action Cluster -->
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-2.5 justify-end">
+<a class="h-11 px-4 rounded bg-primary-container text-on-primary-container font-label-btn text-label-btn font-semibold flex items-center justify-between hover:bg-primary transition-all duration-150 active:scale-95 shadow-[0_0_20px_rgba(56,189,248,0.3)]" href="#work">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">view_in_ar</span>
+              Explore Live 3D Demos
+            </span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="h-11 px-4 rounded border border-telemetry-border bg-surface-container/60 text-on-surface hover:border-primary hover:text-primary font-label-btn text-label-btn flex items-center justify-between transition-all duration-150" href="#unesco">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-heritage-amber text-[18px]">account_balance</span>
+              UNESCO Dossier Work
+            </span>
+<span class="material-symbols-outlined text-on-surface-variant">terminal</span>
+</a>
+<a class="h-11 px-4 rounded border border-telemetry-border bg-surface-container/60 text-on-surface hover:border-secondary hover:text-secondary font-label-btn text-label-btn flex items-center justify-between transition-all duration-150" href="#credentials">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+              Verify Aviation Credentials
+            </span>
+<span class="material-symbols-outlined text-on-surface-variant">flight</span>
+</a>
+</div>
+</div>
+<!-- ================= 3D VIEWPORT WITH AVIONICS HUD OVERLAY ================= -->
+<div class="relative mt-2 rounded-2xl p-1 bg-gradient-to-b from-primary/30 via-telemetry-border/10 to-transparent">
+<div class="relative w-full rounded-2xl overflow-hidden bg-surface-container-lowest border border-telemetry-border shadow-[0_0_50px_rgba(14,165,233,0.15)]">
+<!-- THREE.JS 3D Scene Injection -->
+<!-- STITCH_THREEJS_START:ANIMATION_2 class="w-full h-[520px] rounded-2xl overflow-hidden border border-telemetry-border shadow-[0_0_50px_rgba(14,165,233,0.15)] relative" -->
+<div class="w-full h-[520px] rounded-2xl overflow-hidden border border-telemetry-border shadow-[0_0_50px_rgba(14,165,233,0.15)] relative" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_2" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_2');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Interactive 3D Geospatial LiDAR & UAV Survey Visualizer
+// Container setup
+const containerEl = container || document.body;
+const width = containerEl.clientWidth || window.innerWidth;
+const height = containerEl.clientHeight || window.innerHeight;
+
+const scene = new THREE.Scene();
+scene.fog = new THREE.FogExp2(0x060d17, 0.015);
+
+const camera = new THREE.PerspectiveCamera(55, width / height, 0.1, 1000);
+camera.position.set(0, 18, 32);
+
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+renderer.setSize(width, height);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+containerEl.appendChild(renderer.domElement);
+
+// Lighting
+const ambientLight = new THREE.AmbientLight(0x38bdf8, 1.2);
+scene.add(ambientLight);
+
+const dirLight = new THREE.DirectionalLight(0x34d399, 2.0);
+dirLight.position.set(20, 30, 15);
+scene.add(dirLight);
+
+const pointLight = new THREE.PointLight(0x0284c7, 3, 50);
+pointLight.position.set(-10, 15, -5);
+scene.add(pointLight);
+
+// 1. Digital Elevation Model (DEM) Topographic Wireframe & Point Cloud
+const gridW = 60;
+const gridH = 60;
+const segments = 65;
+const terrainGeo = new THREE.PlaneGeometry(gridW, gridH, segments, segments);
+terrainGeo.rotateX(-Math.PI / 2);
+
+const pos = terrainGeo.attributes.position;
+for (let i = 0; i < pos.count; i++) {
+  const x = pos.getX(i);
+  const z = pos.getZ(i);
+  // Procedural hills, river valleys, terrain ridges
+  const elevation = Math.sin(x * 0.12) * Math.cos(z * 0.12) * 3.5 +
+                    Math.sin(x * 0.25 + 1.2) * 1.5 +
+                    Math.cos(z * 0.3) * 1.2 -
+                    Math.exp(-((x*x + z*z) * 0.002)) * 2.0;
+  pos.setY(i, elevation);
+}
+terrainGeo.computeVertexNormals();
+
+// Topo wireframe mesh
+const terrainMat = new THREE.MeshLambertMaterial({
+  color: 0x0ea5e9,
+  wireframe: true,
+  transparent: true,
+  opacity: 0.35,
+});
+const terrainMesh = new THREE.Mesh(terrainGeo, terrainMat);
+scene.add(terrainMesh);
+
+// 2. High-density LiDAR Point Cloud particles
+const pointCount = 4500;
+const pointGeo = new THREE.BufferGeometry();
+const pointPositions = new Float32Array(pointCount * 3);
+const pointColors = new Float32Array(pointCount * 3);
+
+const colorLow = new THREE.Color(0x0284c7); // Deep Blue / River
+const colorMid = new THREE.Color(0x10b981); // Green / Agro-Forestry
+const colorHigh = new THREE.Color(0xf59e0b); // Gold / Peak / Elevation
+const colorLidar = new THREE.Color(0x38bdf8); // Cyan laser
+
+for (let i = 0; i < pointCount; i++) {
+  const px = (Math.random() - 0.5) * 56;
+  const pz = (Math.random() - 0.5) * 56;
+  const py = Math.sin(px * 0.12) * Math.cos(pz * 0.12) * 3.5 +
+             Math.sin(px * 0.25 + 1.2) * 1.5 +
+             Math.cos(pz * 0.3) * 1.2 +
+             Math.random() * 0.8;
+
+  pointPositions[i * 3] = px;
+  pointPositions[i * 3 + 1] = py + 0.2;
+  pointPositions[i * 3 + 2] = pz;
+
+  const normalizedH = Math.min(Math.max((py + 3) / 8, 0), 1);
+  const pColor = new THREE.Color();
+  if (normalizedH < 0.5) {
+    pColor.lerpColors(colorLow, colorMid, normalizedH * 2);
+  } else {
+    pColor.lerpColors(colorMid, colorHigh, (normalizedH - 0.5) * 2);
+  }
+
+  pointColors[i * 3] = pColor.r;
+  pointColors[i * 3 + 1] = pColor.g;
+  pointColors[i * 3 + 2] = pColor.b;
+}
+
+pointGeo.setAttribute('position', new THREE.BufferAttribute(pointPositions, 3));
+pointGeo.setAttribute('color', new THREE.BufferAttribute(pointColors, 3));
+
+const pointMat = new THREE.PointsMaterial({
+  size: 0.28,
+  vertexColors: true,
+  transparent: true,
+  opacity: 0.85,
+});
+const pointCloud = new THREE.Points(pointGeo, pointMat);
+scene.add(pointCloud);
+
+// 3. Drone / UAV Quadcopter Model orbiting and scanning
+const droneGroup = new THREE.Group();
+
+// Drone body chassis
+const bodyGeo = new THREE.BoxGeometry(1.6, 0.35, 1.6);
+const bodyMat = new THREE.MeshPhongMaterial({ color: 0x0f172a, emissive: 0x0284c7, emissiveIntensity: 0.4 });
+const bodyMesh = new THREE.Mesh(bodyGeo, bodyMat);
+droneGroup.add(bodyMesh);
+
+// LiDAR Sensor Gimbal under chassis
+const lidarGimbalGeo = new THREE.CylinderGeometry(0.35, 0.35, 0.5, 16);
+const lidarMat = new THREE.MeshPhongMaterial({ color: 0x38bdf8, emissive: 0x38bdf8, emissiveIntensity: 0.8 });
+const lidarMesh = new THREE.Mesh(lidarGimbalGeo, lidarMat);
+lidarMesh.position.y = -0.3;
+droneGroup.add(lidarMesh);
+
+// Drone Arms & Rotors
+const armGeo = new THREE.BoxGeometry(0.2, 0.15, 3.8);
+const armMat = new THREE.MeshLambertMaterial({ color: 0x334155 });
+const arm1 = new THREE.Mesh(armGeo, armMat);
+arm1.rotation.y = Math.PI / 4;
+droneGroup.add(arm1);
+const arm2 = new THREE.Mesh(armGeo, armMat);
+arm2.rotation.y = -Math.PI / 4;
+droneGroup.add(arm2);
+
+// Rotor blades array
+const rotors = [];
+const rotorPositions = [
+  [1.3, 0.25, 1.3],
+  [-1.3, 0.25, 1.3],
+  [1.3, 0.25, -1.3],
+  [-1.3, 0.25, -1.3]
+];
+const rotorGeo = new THREE.BoxGeometry(1.2, 0.02, 0.12);
+const rotorMat = new THREE.MeshBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.8 });
+
+rotorPositions.forEach(pos => {
+  const rotor = new THREE.Mesh(rotorGeo, rotorMat);
+  rotor.position.set(pos[0], pos[1], pos[2]);
+  droneGroup.add(rotor);
+  rotors.push(rotor);
+});
+
+// Dynamic Laser Scanning Cone (LiDAR Beam down to terrain)
+const beamGeo = new THREE.ConeGeometry(4.2, 9, 24, 1, true);
+beamGeo.rotateX(Math.PI);
+beamGeo.translate(0, -4.5, 0);
+const beamMat = new THREE.MeshBasicMaterial({
+  color: 0x38bdf8,
+  wireframe: true,
+  transparent: true,
+  opacity: 0.22,
+  side: THREE.DoubleSide
+});
+const scanCone = new THREE.Mesh(beamGeo, beamMat);
+droneGroup.add(scanCone);
+
+droneGroup.position.set(0, 9, 0);
+scene.add(droneGroup);
+
+// Cadastral GIS Survey Boundary lines / Flight paths
+const pathCurve = new THREE.CatmullRomCurve3([
+  new THREE.Vector3(-14, 9, -10),
+  new THREE.Vector3(14, 10, -8),
+  new THREE.Vector3(12, 8.5, 8),
+  new THREE.Vector3(-12, 9.5, 10),
+  new THREE.Vector3(-14, 9, -10)
+]);
+const pathGeo = new THREE.BufferGeometry().setFromPoints(pathCurve.getPoints(120));
+const pathMat = new THREE.LineDashedMaterial({
+  color: 0x10b981,
+  dashSize: 0.8,
+  gapSize: 0.4,
+  linewidth: 1.5
+});
+const flightPathLine = new THREE.Line(pathGeo, pathMat);
+flightPathLine.computeLineDistances();
+scene.add(flightPathLine);
+
+// Interactive mouse rotation tracking
+let mouseX = 0;
+let mouseY = 0;
+let targetX = 0;
+let targetY = 0;
+const halfX = width / 2;
+const halfY = height / 2;
+
+function onMouseMove(event) {
+  mouseX = (event.clientX - halfX) * 0.0008;
+  mouseY = (event.clientY - halfY) * 0.0008;
+}
+window.addEventListener('mousemove', onMouseMove);
+
+function onResize() {
+  const w = containerEl.clientWidth || window.innerWidth;
+  const h = containerEl.clientHeight || window.innerHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+}
+window.addEventListener('resize', onResize);
+
+// Animation Loop
+let clock = new THREE.Clock();
+function animate() {
+  requestAnimationFrame(animate);
+  const time = clock.getElapsedTime();
+
+  // Spin rotor blades
+  rotors.forEach(r => {
+    r.rotation.y += 0.45;
+  });
+
+  // Drone flight path following
+  const t = (time * 0.08) % 1;
+  const dronePos = pathCurve.getPointAt(t);
+  droneGroup.position.copy(dronePos);
+  
+  // Drone slight banking & tilt
+  const tangent = pathCurve.getTangentAt(t);
+  droneGroup.lookAt(dronePos.clone().add(tangent));
+  droneGroup.position.y += Math.sin(time * 3) * 0.2;
+
+  // Pulse scan beam
+  scanCone.scale.x = 1 + Math.sin(time * 4) * 0.15;
+  scanCone.scale.z = 1 + Math.sin(time * 4) * 0.15;
+  beamMat.opacity = 0.18 + Math.sin(time * 6) * 0.1;
+
+  // Mouse camera dampening
+  targetX += (mouseX - targetX) * 0.04;
+  targetY += (mouseY - targetY) * 0.04;
+
+  camera.position.x = Math.sin(time * 0.05 + targetX) * 28;
+  camera.position.z = Math.cos(time * 0.05 + targetX) * 28;
+  camera.position.y = 16 - targetY * 12;
+  camera.lookAt(0, 1.5, 0);
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_2 -->
+<!-- Top-Left Avionics HUD Overlay -->
+<div class="absolute top-4 left-4 z-10 flex flex-col gap-2 pointer-events-none">
+<div class="bg-surface-container-lowest/85 backdrop-blur-md p-3 rounded-lg border border-telemetry-border/70 pointer-events-auto shadow-lg max-w-xs">
+<div class="flex items-center justify-between border-b border-telemetry-border/40 pb-1.5 mb-2">
+<span class="font-eyebrow-tag text-eyebrow-tag text-primary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">flight_takeoff</span>
+                  UAV MISSION STATUS
+                </span>
+<span class="font-telemetry-meta text-[10px] text-spectral-green px-1.5 py-0.5 rounded bg-spectral-green/10 border border-spectral-green/30">ACTIVE</span>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-1 font-telemetry-meta text-telemetry-meta">
+<div class="text-on-surface-variant">FLIGHT_MODE:</div>
+<div class="text-on-surface text-right font-medium">AUTONOMOUS</div>
+<div class="text-on-surface-variant">ALTITUDE_AGL:</div>
+<div class="text-on-surface text-right font-medium text-laser-cyan">120.0 m</div>
+<div class="text-on-surface-variant">AIRSPEED:</div>
+<div class="text-on-surface text-right font-medium">11.4 m/s</div>
+<div class="text-on-surface-variant">BATTERY_REMAIN:</div>
+<div class="text-spectral-green text-right font-medium">88% (24.2V)</div>
+</div>
+</div>
+</div>
+<!-- Top-Right Photogrammetry & LiDAR Metrics HUD -->
+<div class="absolute top-4 right-4 z-10 flex flex-col items-end gap-2 pointer-events-none">
+<div class="bg-surface-container-lowest/85 backdrop-blur-md p-3 rounded-lg border border-telemetry-border/70 pointer-events-auto shadow-lg">
+<div class="flex items-center justify-between border-b border-telemetry-border/40 pb-1.5 mb-2 gap-4">
+<span class="font-eyebrow-tag text-eyebrow-tag text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">grain</span>
+                  POINT STREAM DENSITY
+                </span>
+<span class="font-telemetry-meta text-telemetry-meta text-primary">4,500 pts/sec</span>
+</div>
+<div class="flex flex-col gap-1 font-telemetry-meta text-telemetry-meta text-right">
+<div class="flex justify-between gap-6">
+<span class="text-on-surface-variant">GSD RESOLUTION:</span>
+<span class="text-spectral-green font-semibold">&lt; 2.4 cm/px</span>
+</div>
+<div class="flex justify-between gap-6">
+<span class="text-on-surface-variant">RTK BASELINE:</span>
+<span class="text-on-surface">FIXED (18 SATS)</span>
+</div>
+<div class="flex justify-between gap-6">
+<span class="text-on-surface-variant">OVERLAP (FWD/SIDE):</span>
+<span class="text-on-surface">80% / 75%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Viewport Interactive Control Bar -->
+<div class="absolute bottom-4 left-4 right-4 z-10 flex flex-wrap items-center justify-between gap-3 pointer-events-none">
+<!-- View Mode Switcher -->
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md p-1.5 rounded-lg border border-telemetry-border pointer-events-auto shadow-xl">
+<button class="px-2.5 py-1 rounded bg-primary-container text-on-primary-container font-eyebrow-tag text-eyebrow-tag flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>NADIR TOP-DOWN</span>
+</button>
+<button class="px-2.5 py-1 rounded text-on-surface-variant hover:text-on-surface font-eyebrow-tag text-eyebrow-tag flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[14px]">3d_rotation</span>
+<span>ISO 45°</span>
+</button>
+<button class="px-2.5 py-1 rounded text-on-surface-variant hover:text-on-surface font-eyebrow-tag text-eyebrow-tag flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[14px]">adjust</span>
+<span>ORBIT DRONE</span>
+</button>
+<button class="px-2.5 py-1 rounded text-on-surface-variant hover:text-on-surface font-eyebrow-tag text-eyebrow-tag flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[14px]">grid_4x4</span>
+<span>RGB / WIRE</span>
+</button>
+</div>
+<!-- Compass / Orientation Indicator -->
+<div class="bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-telemetry-border pointer-events-auto flex items-center gap-3 font-telemetry-meta text-telemetry-meta">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">navigation</span>
+<span>HEADING: 042° NNE</span>
+</div>
+<div class="w-px h-4 bg-telemetry-border"></div>
+<div class="text-on-surface-variant">STREAM: WEBM-LIDAR-V4</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ================= SPATIAL DEMOS BENTO SECTION ================= -->
+<section class="pt-12 pb-20 border-t border-telemetry-border/40" id="work">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-12 flex flex-col items-center">
+<div class="font-eyebrow-tag text-eyebrow-tag text-laser-cyan tracking-widest uppercase mb-1">
+          INTERACTIVE PLATFORMS
+        </div>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-wide">
+          SPATIAL DEMOS
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Real-time client-ready web GIS decks, photogrammetric dense point clouds, elevation engines, and algorithmic tea estate enumeration models.
+        </p>
+</div>
+<!-- Bento Grid (6 Spatial Apps) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- CARD 1: Mine Site Sentinel -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-primary-container/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(14,165,233,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-laser-cyan/20 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<!-- Category Badge -->
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-laser-cyan text-laser-cyan backdrop-blur-sm">
+                2D GIS &amp; RASTER
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-laser-cyan/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">terrain</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">ORTHO_LAYER // DSM</span>
+</div>
+<!-- Live telemetry overlay chip -->
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              RES: 4.8 CM/PX
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Mine Site Sentinel | Rule 34A Engine
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Opencast mine inspection deck. Retains interactive DSM/DTM opacity sliders, sub-5 cm RGB orthomosaics, cadastral boundary vectors, and DGCA/IBM Rule 34A compliance tools.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Rule 34A</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">DSM/DTM</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Cadastral Vector</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-primary-container text-on-primary-container font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-primary transition-all duration-150" href="https://rituraj21188.github.io/mine-site-viewer/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-primary flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/mine-site-viewer/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 2: Tea Plantation Sentinel -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-cadastral-purple/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(139,92,246,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-cadastral-purple/25 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-cadastral-purple text-cadastral-purple backdrop-blur-sm">
+                AGRI-SPATIAL ANALYTICS
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-cadastral-purple/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">park</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">CANOPY_DENSITY // DLR</span>
+</div>
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              UNIT: BIGHA-KATHA
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-mesh-violet transition-colors">
+                Tea Plantation Sentinel | Garden Analytics
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Direct tea estate inspection deck. Features native Assam DLR (Bigha-Katha-Lessa) / Ha / Acre unit selector, individual tree count readout, empty infill patch toggling, and live alpha sliders.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Crown AI</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Assam DLR</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Infill Mapping</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-mesh-violet text-on-surface font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-cadastral-purple transition-all duration-150" href="https://rituraj21188.github.io/TEA-AI-SENTINEL/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-cadastral-purple flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/TEA-AI-SENTINEL/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 3: 2D Boundary & 3D Spatial Point Cloud -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-secondary/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(78,222,163,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-secondary-container/30 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-secondary text-secondary backdrop-blur-sm">
+                3D POINT CLOUD &amp; MESH
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-secondary/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">grain</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">DUAL_SPACE // CONTOUR</span>
+</div>
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              POTREE ENGINE
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">
+                2D Boundary &amp; 3D Spatial Point Cloud Viewer
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Dual-space photogrammetry inspection tool. Real-time rendering of dense photogrammetric point clouds, camera angle controls, and terrain contour lines.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Point Cloud</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Iso-Contours</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Dual Viewport</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-secondary text-on-secondary-fixed font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-secondary-fixed transition-all duration-150" href="https://rituraj21188.github.io/2D-3D/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-secondary flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/2D-3D/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 4: Heritage Church Structure -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-heritage-amber/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(245,158,11,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-heritage-amber/25 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-heritage-amber text-heritage-amber backdrop-blur-sm">
+                HERITAGE PHOTOGRAMMETRY
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-heritage-amber/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">church</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">ARCH_PRESERVATION // CM-GRADE</span>
+</div>
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              ACCURACY: &lt; 8MM
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">
+                Heritage Church Structure | 3D Point Cloud
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Centimeter-grade photogrammetric point cloud reconstruction of heritage architecture. Features real-time particle size sliders, viewport background tone switching, and orbit diagnostics.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Photogrammetry</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Particle Tuning</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Orbit Matrix</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-heritage-amber text-surface-container-lowest font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-tertiary-fixed transition-all duration-150" href="https://rituraj21188.github.io/Church/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-heritage-amber flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/Church/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 5: Textured 3D Mesh -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-mesh-violet/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(168,85,247,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-mesh-violet/25 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-mesh-violet text-mesh-violet backdrop-blur-sm">
+                DIGITAL TWIN &amp; TEXTURED MESH
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-mesh-violet/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">view_in_ar</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">GLTF_GLB // PBR TEXTURE</span>
+</div>
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              4K TEX ATLAS
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Textured 3D Mesh &amp; Reality Capture Viewer
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Optimized interactive 3D model inspector with responsive touch controls, wireframe inspection, directional illumination, and high-resolution texture preservation.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">RealityCapture</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Three.js</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Dynamic Lights</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-mesh-violet text-on-surface font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-cadastral-purple transition-all duration-150" href="https://rituraj21188.github.io/3D-Model-Viewer/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-mesh-violet flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/3D-Model-Viewer/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 6: DEM0 Terrain Elevation -->
+<article class="flex flex-col rounded-xl overflow-hidden bg-telemetry-card-bg backdrop-blur-md border border-telemetry-border hover:border-elevation-crimson/80 transition-all duration-200 group hover:shadow-[0_0_24px_-4px_rgba(244,63,94,0.25)]">
+<!-- Graphic Viewport -->
+<div class="relative h-48 bg-gradient-to-b from-elevation-crimson/25 to-surface-container-lowest flex items-center justify-center border-b border-telemetry-border/40 overflow-hidden">
+<div class="absolute inset-0 bg-spatial-grid opacity-30"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="font-eyebrow-tag text-eyebrow-tag uppercase px-2.5 py-1 rounded bg-surface-container-lowest/90 border border-elevation-crimson text-elevation-crimson backdrop-blur-sm">
+                TOPOGRAPHIC DEM &amp; ELEVATION
+              </span>
+</div>
+<div class="relative flex flex-col items-center justify-center text-elevation-crimson/80 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[64px]">landscape</span>
+<span class="font-telemetry-meta text-[10px] tracking-widest text-on-surface-variant mt-1">SLOPE_HEATMAP // RUNOFF</span>
+</div>
+<div class="absolute bottom-2 right-3 font-telemetry-meta text-[10px] text-on-surface-variant bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-telemetry-border">
+              THROTTLED BUDGET
+            </div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-elevation-crimson transition-colors">
+                DEM0 Terrain Elevation &amp; Surface Point Cloud
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Dense digital elevation surface point cloud tool for slope, runoff, and terrain relief analysis. Includes real-time point-budget throttling and background lighting toggles.
+              </p>
+</div>
+<!-- Tech Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2 border-t border-telemetry-border/30">
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Elevation Heatmap</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Runoff Simulation</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Budget Throttling</span>
+</div>
+<!-- Action Launch Footer -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 h-11 px-4 rounded bg-elevation-crimson text-on-surface font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-elevation-crimson/90 transition-all duration-150" href="https://rituraj21188.github.io/DEM0/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+<span>Launch App</span>
+</a>
+<a class="w-11 h-11 rounded border border-telemetry-border bg-surface-container/60 hover:border-elevation-crimson flex items-center justify-center text-on-surface transition-colors" href="https://rituraj21188.github.io/DEM0/" rel="noopener noreferrer" target="_blank" title="Open in new tab">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- ================= HIGH-IMPACT FEATURE HIGHLIGHT: UNESCO & CARBON MRV ================= -->
+<section class="py-12 border-t border-telemetry-border/40" id="unesco">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left UNESCO Feature Hero Card -->
+<div class="lg:col-span-7 flex flex-col justify-between p-8 rounded-2xl bg-surface-container/70 border border-heritage-amber/40 relative overflow-hidden shadow-[0_0_40px_rgba(245,158,11,0.08)]">
+<div class="absolute -right-16 -top-16 w-64 h-64 bg-heritage-amber/10 rounded-full blur-3xl pointer-events-none"></div>
+<div>
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 rounded bg-heritage-amber/15 border border-heritage-amber font-eyebrow-tag text-eyebrow-tag text-heritage-amber uppercase tracking-wider">
+                STATE ARCHAEOLOGY CONSULTANCY
+              </span>
+<span class="font-telemetry-meta text-telemetry-meta text-on-surface-variant">GOVT. OF ASSAM</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface uppercase mb-3">
+              UNESCO World Heritage Nomination Dossier — Charaideo Maidams
+            </h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+              Served as <strong class="text-on-surface">Lead Individual Consultant for the Directorate of Archaeology (Govt. of Assam)</strong>, orchestrating sub-centimeter UAV photogrammetric reconstruction, geodetic baseline tie-ins, and high-fidelity micro-topographic DTM modeling to define the buffer and core heritage protection envelopes.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 rounded-xl bg-surface-container-lowest/80 border border-telemetry-border mb-6">
+<div>
+<div class="font-telemetry-meta text-[11px] text-on-surface-variant uppercase">SURVEY EXTENT</div>
+<div class="font-headline-sm text-headline-sm text-heritage-amber">578.4 Ha</div>
+<div class="font-telemetry-meta text-[10px] text-on-surface-variant">Full Core + Buffer Envelope</div>
+</div>
+<div>
+<div class="font-telemetry-meta text-[11px] text-on-surface-variant uppercase">ELEVATION POSTING</div>
+<div class="font-headline-sm text-headline-sm text-primary">0.05 m</div>
+<div class="font-telemetry-meta text-[10px] text-on-surface-variant">Micro-Relief Mound Detection</div>
+</div>
+<div>
+<div class="font-telemetry-meta text-[11px] text-on-surface-variant uppercase">STANDARDS</div>
+<div class="font-headline-sm text-headline-sm text-spectral-green">ICOMOS</div>
+<div class="font-telemetry-meta text-[10px] text-on-surface-variant">Nomination Annex Compliance</div>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-telemetry-border/40 font-telemetry-meta text-telemetry-meta">
+<span class="text-on-surface-variant">DELIVERABLES: High-Res Orthomosaics • Bare-Earth DTM • Cadastral Vectors</span>
+<span class="text-heritage-amber flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+              ARCHIVAL DOSSIER SIGN-OFF
+            </span>
+</div>
+</div>
+<!-- Right Carbon MRV & Ecosystem Card -->
+<div class="lg:col-span-5 flex flex-col justify-between p-8 rounded-2xl bg-surface-container/70 border border-spectral-green/40 relative overflow-hidden shadow-[0_0_40px_rgba(16,185,129,0.08)]">
+<div class="absolute -right-12 -bottom-12 w-56 h-56 bg-spectral-green/10 rounded-full blur-3xl pointer-events-none"></div>
+<div>
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 rounded bg-spectral-green/15 border border-spectral-green font-eyebrow-tag text-eyebrow-tag text-spectral-green uppercase tracking-wider">
+                ECOLOGICAL SPATIAL FRAMEWORK
+              </span>
+<span class="font-telemetry-meta text-telemetry-meta text-on-surface-variant">NORTHEAST INDIA</span>
+</div>
+<h3 class="font-headline-sm text-headline-md text-on-surface uppercase mb-3">
+              Carbon MRV &amp; Agroforestry Biomass Architecture
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              Operating extensively across fragile rainforest and tea plantation corridors, developing enterprise GIS architectures aligned with <strong class="text-on-surface">Verra VCS standards</strong>. Integrating aerial LiDAR canopy penetration, automated tree crown delineation, and allometric biomass estimation.
+            </p>
+<ul class="space-y-3 font-telemetry-meta text-telemetry-meta text-on-surface-variant mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-spectral-green text-[16px]">check_circle</span>
+<span>Individual Tree Crown Enumeration via Machine Learning</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-spectral-green text-[16px]">check_circle</span>
+<span>Canopy Height Models (CHM) via Drone LiDAR &amp; DTM Differencing</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-spectral-green text-[16px]">check_circle</span>
+<span>Assam Revenue DLR / Bigha parcel-level cadastral tie-ins</span>
+</li>
+</ul>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-lowest/80 border border-telemetry-border flex items-center justify-between font-telemetry-meta text-telemetry-meta">
+<span class="text-on-surface-variant">STANDARD: VERRA VM0042 / AFOLU</span>
+<span class="text-spectral-green font-mono">STATUS: VALIDATED</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SPECIALIZED GEOSPATIAL COMPETENCIES & CREDENTIALS ================= -->
+<section class="py-12 border-t border-telemetry-border/40" id="about">
+<div class="mb-10">
+<div class="font-eyebrow-tag text-eyebrow-tag text-laser-cyan tracking-widest uppercase mb-1">
+          PROFESSIONAL PROFILE &amp; TECHNICAL EXPERTISE
+        </div>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-wide">
+          ABOUT ME &amp; CORE CAPABILITIES
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-4xl">
+          I am a <strong class="text-on-surface">GIS &amp; UAV Survey Specialist</strong> based in Assam with over 5+ years of hands-on experience spanning end-to-end aerial mapping, LiDAR data capture, DGPS surveying, photogrammetric reconstruction, and enterprise GIS analytics. My work bridges rugged field execution across challenging terrains with surgical computational precision.
+        </p>
+</div>
+<!-- Domain Matrix: 3 Column Engineering Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+<!-- Pillar 1: Photogrammetry & LiDAR -->
+<div class="p-6 rounded-xl bg-surface-container-low/90 border border-telemetry-border flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined">filter_drama</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase mb-2">Photogrammetry &amp; LiDAR</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Dense point cloud classification, aerial triangulation, camera calibration, DEM/DTM bare-earth extraction, and photorealistic 3D mesh textured synthesis.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-4 border-t border-telemetry-border/40">
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-primary">Agisoft Metashape</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-primary">Pix4Dmapper</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">CloudCompare</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">LiDAR Classification</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Sub-5cm Orthomosaics</span>
+</div>
+</div>
+<!-- Pillar 2: GIS & Remote Sensing -->
+<div class="p-6 rounded-xl bg-surface-container-low/90 border border-telemetry-border flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-cadastral-purple/10 border border-cadastral-purple/30 flex items-center justify-center text-cadastral-purple mb-4">
+<span class="material-symbols-outlined">public</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase mb-2">GIS &amp; Remote Sensing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Enterprise spatial database integration, land-use/land-cover (LULC) temporal change detection, multi-spectral vegetative index analysis (NDVI/NDRE), and Web-GIS architectures.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-4 border-t border-telemetry-border/40">
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-cadastral-purple">ArcGIS Pro &amp; ArcMap</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-cadastral-purple">QGIS Enterprise</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Global Mapper</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Volumetric Cut &amp; Fill</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">LULC Analytics</span>
+</div>
+</div>
+<!-- Pillar 3: Geodesy & Field Survey -->
+<div class="p-6 rounded-xl bg-surface-container-low/90 border border-telemetry-border flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-secondary/10 border border-secondary/30 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">explore</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase mb-2">Geodesy &amp; Ground Control</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Differential GPS (DGPS) baseline processing, RTK/PPK ground control network calibration, cadastral lease boundary rectification, and corridor highway alignments.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-4 border-t border-telemetry-border/40">
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-secondary">DGPS &amp; RTK/PPK</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-secondary">GCP QA/QC</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Cadastral Boundary Audit</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Mining Rule 34A</span>
+<span class="px-2 py-1 rounded bg-surface-container font-telemetry-meta text-[11px] text-on-surface-variant">Corridor Mapping</span>
+</div>
+</div>
+</div>
+<!-- Statutory Aviation Credentials & Education -->
+<div class="p-8 rounded-2xl bg-surface-container-lowest border border-telemetry-border" id="credentials">
+<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+<div>
+<div class="font-eyebrow-tag text-eyebrow-tag text-laser-cyan uppercase">GOVERNMENT REGULATORY ACCREDITATIONS</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Statutory Aviation Credentials &amp; Qualifications</h3>
+</div>
+<div class="flex items-center gap-2 font-telemetry-meta text-telemetry-meta text-spectral-green bg-spectral-green/10 border border-spectral-green/30 px-3 py-1 rounded">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span>LICENSED REMOTE PILOT IN COMMAND</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Credential 1 -->
+<div class="p-4 rounded-xl bg-surface-container-low border border-telemetry-border/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[28px] mt-0.5">flight</span>
+<div>
+<div class="font-label-btn text-label-btn text-on-surface font-semibold">DGCA Remote Pilot License</div>
+<div class="font-telemetry-meta text-telemetry-meta text-on-surface-variant">Small Category UAS (Govt. of India)</div>
+<div class="font-telemetry-meta text-[10px] text-laser-cyan mt-1">AUTHORITY: DGCA INDIA</div>
+</div>
+</div>
+<!-- Credential 2 -->
+<div class="p-4 rounded-xl bg-surface-container-low border border-telemetry-border/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[28px] mt-0.5">military_tech</span>
+<div>
+<div class="font-label-btn text-label-btn text-on-surface font-semibold">ideaForge Q6 Certified Pilot</div>
+<div class="font-telemetry-meta text-telemetry-meta text-on-surface-variant">Tactical Survey &amp; Surveillance UAV</div>
+<div class="font-telemetry-meta text-[10px] text-secondary mt-1">PLATFORM: ideaForge Q6 SERIES</div>
+</div>
+</div>
+<!-- Credential 3 -->
+<div class="p-4 rounded-xl bg-surface-container-low border border-telemetry-border/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-[28px] mt-0.5">school</span>
+<div>
+<div class="font-label-btn text-label-btn text-on-surface font-semibold">Bachelor of Computer Applications (BCA)</div>
+<div class="font-telemetry-meta text-telemetry-meta text-on-surface-variant">Jamia Hamdard University</div>
+<div class="font-telemetry-meta text-[10px] text-tertiary mt-1">COMPUTATIONAL SPATIAL SYSTEMS</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= INTERACTIVE SPATIAL HUD TERMINAL & CONTACT SECTION ================= -->
+<section class="py-12 border-t border-telemetry-border/40" id="contact">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Left Column: Spatial Assistant Interactive HUD Terminal -->
+<div class="lg:col-span-6 flex flex-col justify-between p-6 md:p-8 rounded-2xl bg-surface-container-low/90 border border-primary-container/40 relative shadow-xl">
+<div>
+<!-- Terminal Header -->
+<div class="flex items-center justify-between border-b border-telemetry-border pb-3 mb-4">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-spectral-green animate-pulse"></span>
+<span class="font-eyebrow-tag text-eyebrow-tag text-primary uppercase">SPATIAL HUD ONLINE // TERMINAL AGENT</span>
+</div>
+<span class="font-telemetry-meta text-[10px] text-on-surface-variant">NODE: RG-ASSAM-V3</span>
+</div>
+<!-- Terminal Assistant Content Display -->
+<div class="bg-surface-container-lowest/90 p-4 rounded-xl border border-telemetry-border/60 font-telemetry-meta text-telemetry-meta flex flex-col gap-3 min-h-[200px]">
+<div class="text-laser-cyan flex items-center gap-1.5 font-semibold">
+<span class="material-symbols-outlined text-[16px]">smart_toy</span>
+<span>SPATIAL AGENT</span>
+</div>
+<div class="text-on-surface leading-relaxed" id="terminal-text">
+                Welcome! I am Rituraj's Spatial Intelligence Assistant. I can walk you through his UAV flight missions, LiDAR pipelines, UNESCO documentation, or launch his live 3D web applications. What would you like to explore?
+              </div>
+<div class="mt-auto pt-2 border-t border-telemetry-border/30 flex items-center gap-2 text-on-surface-variant text-[11px]">
+<span class="text-spectral-green">▶</span>
+<span class="animate-pulse">Awaiting query parameter selection...</span>
+</div>
+</div>
+<!-- Quick Inquiry Chips -->
+<div class="mt-4 flex flex-wrap gap-2">
+<button class="px-3 py-1 rounded bg-surface-container border border-telemetry-border font-telemetry-meta text-[11px] text-on-surface hover:border-primary hover:text-primary transition-all duration-150" onclick="updateTerminal('LiDAR Pipeline: 16-channel and UAV photogrammetric dense point clouds processed with Agisoft Metashape and Pix4D, delivering sub-5cm DTMs and classified bare-earth models.')">
+                LiDAR Pipeline
+              </button>
+<button class="px-3 py-1 rounded bg-surface-container border border-telemetry-border font-telemetry-meta text-[11px] text-on-surface hover:border-heritage-amber hover:text-heritage-amber transition-all duration-150" onclick="updateTerminal('UNESCO Charaideo Maidams: Lead Consultant for Govt of Assam Directorate of Archaeology. Produced micro-relief elevation models and cadastral buffer verification for World Heritage inscription.')">
+                UNESCO Charaideo
+              </button>
+<button class="px-3 py-1 rounded bg-surface-container border border-telemetry-border font-telemetry-meta text-[11px] text-on-surface hover:border-mesh-violet hover:text-mesh-violet transition-all duration-150" onclick="updateTerminal('Tea Sentinel Engine: Custom machine-learning powered crown delineation for Assam tea gardens. Native Bigha-Katha-Lessa conversion, infill vacancy metrics, and canopy health indices.')">
+                Tea Sentinel Engine
+              </button>
+<button class="px-3 py-1 rounded bg-surface-container border border-telemetry-border font-telemetry-meta text-[11px] text-on-surface hover:border-laser-cyan hover:text-laser-cyan transition-all duration-150" onclick="updateTerminal('Volumetric Survey: High-precision cut &amp; fill volume calculations for opencast mines and highway corridors, compliant with IBM / DGCA Rule 34A annual reporting.')">
+                Volumetric Survey
+              </button>
+</div>
+</div>
+<!-- Bottom Coordinates readout -->
+<div class="mt-6 pt-4 border-t border-telemetry-border/40 flex items-center justify-between font-telemetry-meta text-telemetry-meta text-on-surface-variant">
+<span>LOCATION: GUWAHATI / DIBRUGARH, ASSAM</span>
+<span class="text-spectral-green">UAV DEPLOYMENT READY</span>
+</div>
+</div>
+<!-- Right Column: Formal Contact Inquiries Form -->
+<div class="lg:col-span-6 flex flex-col justify-between p-6 md:p-8 rounded-2xl bg-surface-container/70 border border-telemetry-border">
+<div>
+<div class="font-eyebrow-tag text-eyebrow-tag text-laser-cyan tracking-widest uppercase mb-1">
+              INQUIRIES &amp; DEPLOYMENT
+            </div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">
+              CONTACT
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Initiate a UAV survey commission, LiDAR mapping project, or enterprise GIS consultation. Field-ready across Northeast India and PAN-India.
+            </p>
+<form class="space-y-4" onsubmit="event.preventDefault(); alert('Telemetry transmitted! Rituraj will review your mission inquiry shortly.');">
+<div>
+<label class="block font-eyebrow-tag text-eyebrow-tag uppercase text-on-surface mb-1">
+                  NAME <span class="text-heritage-amber">*</span>
+</label>
+<input class="w-full bg-surface-container-lowest/80 border border-telemetry-border rounded p-3 text-on-surface font-body-sm placeholder:text-on-surface-variant/40 focus:border-laser-cyan focus:ring-1 focus:ring-laser-cyan outline-none transition-colors" placeholder="e.g. Director of Mining Operations / GIS Lead" required="" type="text"/>
+</div>
+<div>
+<label class="block font-eyebrow-tag text-eyebrow-tag uppercase text-on-surface mb-1">
+                  EMAIL ADDRESS <span class="text-heritage-amber">*</span>
+</label>
+<input class="w-full bg-surface-container-lowest/80 border border-telemetry-border rounded p-3 text-on-surface font-body-sm placeholder:text-on-surface-variant/40 focus:border-laser-cyan focus:ring-1 focus:ring-laser-cyan outline-none transition-colors" placeholder="name@organization.gov.in" required="" type="email"/>
+</div>
+<div>
+<label class="block font-eyebrow-tag text-eyebrow-tag uppercase text-on-surface mb-1">
+                  MESSAGE / PROJECT SCOPE <span class="text-heritage-amber">*</span>
+</label>
+<textarea class="w-full bg-surface-container-lowest/80 border border-telemetry-border rounded p-3 text-on-surface font-body-sm placeholder:text-on-surface-variant/40 focus:border-laser-cyan focus:ring-1 focus:ring-laser-cyan outline-none transition-colors resize-none" placeholder="Specify terrain type, survey area (hectares), required Ground Sampling Distance (GSD), and target timeline..." required="" rows="4"></textarea>
+</div>
+<button class="w-full h-12 rounded bg-primary-container text-on-primary-container font-label-btn text-label-btn font-semibold flex items-center justify-center gap-2 hover:bg-primary transition-all duration-150 active:scale-95 shadow-[0_0_24px_rgba(56,189,248,0.25)]" type="submit">
+<span>SUBMIT MISSION INQUIRY</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- ================= PERSISTENT FLOATING HUD ORB (Bottom Right) ================= -->
+<aside class="fixed bottom-6 right-6 z-40">
+<div class="relative group">
+<!-- Radar Pulse Ring -->
+<div class="absolute -inset-2 rounded-full border border-laser-cyan/50 animate-radar-ring pointer-events-none"></div>
+<!-- Spatial Orb Button -->
+<a class="w-14 h-14 rounded-full bg-surface-container-lowest/90 border border-laser-cyan/70 backdrop-blur-md flex items-center justify-center text-primary shadow-[0_12px_32px_-6px_rgba(0,0,0,0.8),0_0_16px_1px_rgba(56,189,248,0.3)] hover:scale-105 transition-transform duration-200" href="#contact" title="Spatial Assistant Online">
+<span class="material-symbols-outlined text-[24px]">satellite_alt</span>
+<span class="absolute top-1 right-1 w-2.5 h-2.5 rounded-full bg-spectral-green border border-surface-container-lowest"></span>
+</a>
+<!-- Tooltip -->
+<div class="absolute right-16 top-2 hidden group-hover:flex items-center px-3 py-1.5 rounded bg-surface-container-lowest/95 border border-telemetry-border text-on-surface font-telemetry-meta text-telemetry-meta whitespace-nowrap shadow-xl">
+<span>SPATIAL HUD ONLINE // ASSISTANT</span>
+</div>
+</div>
+</aside>
+<!-- ================= FOOTER (Shared Component JSON) ================= -->
+<footer class="w-full py-10 px-6 md:px-12 border-t border-telemetry-border bg-telemetry-deep-bg text-on-surface-variant flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
+<div class="font-headline-sm text-headline-sm text-on-surface tracking-wider uppercase">
+        RITURAJ GOGOI
+      </div>
+<div class="hidden md:block w-px h-4 bg-telemetry-border"></div>
+<div class="font-telemetry-meta text-telemetry-meta">
+        © 2025 RITURAJ GOGOI. UAV SURVEY &amp; SPATIAL INTELLIGENCE. ALL RIGHTS RESERVED.
+      </div>
+</div>
+<!-- Footer Links from JSON Blueprint -->
+<div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 font-telemetry-meta text-telemetry-meta">
+<a class="text-on-surface-variant hover:text-laser-cyan transition-colors duration-200" href="#work">ArcGIS Pro</a>
+<span class="text-telemetry-border">•</span>
+<a class="text-on-surface-variant hover:text-laser-cyan transition-colors duration-200" href="#work">QGIS</a>
+<span class="text-telemetry-border">•</span>
+<a class="text-on-surface-variant hover:text-laser-cyan transition-colors duration-200" href="#work">Agisoft Metashape</a>
+<span class="text-telemetry-border">•</span>
+<a class="text-on-surface-variant hover:text-laser-cyan transition-colors duration-200" href="#credentials">DGCA Remote Pilot</a>
+<span class="text-telemetry-border">•</span>
+<a class="text-on-surface-variant hover:text-laser-cyan transition-colors duration-200" href="#unesco">UNESCO Charaideo Maidams</a>
+<span class="text-telemetry-border">•</span>
+<a class="text-primary font-bold hover:text-laser-cyan transition-colors duration-200" href="#contact">Inquiry Terminal</a>
+</div>
+</footer>
+<!-- Micro-interactions Script -->
+<script>
+    function updateTerminal(message) {
+      const display = document.getElementById('terminal-text');
+      if (display) {
+        display.style.opacity = '0.3';
+        setTimeout(() => {
+          display.textContent = message;
+          display.style.opacity = '1';
+        }, 150);
+      }
+    }
+  </script>
+</body></html>
